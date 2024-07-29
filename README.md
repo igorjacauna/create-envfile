@@ -8,6 +8,8 @@ marketplace](https://img.shields.io/badge/marketplace-create--env--file-blue?log
 
 ## About
 
+This is a fork from [SpicyPizza action](https://github.com/SpicyPizza/create-envfile) from Forest Anderson
+
 A GitHub Action to create an '.env' file with GitHub Secrets. This is useful
 when you are creating artifacts that contain values stored in GitHub Secrets.
 This creates a file with variables that are defined in the Action config.

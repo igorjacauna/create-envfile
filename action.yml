@@ -1,6 +1,6 @@
 name: 'Create .env file'
 description: 'GitHub Action to create a .env file with GitHub Secrets'
-author: 'Forest Anderson'
+author: 'Igor Jacaúna'
 branding:
   icon: 'briefcase'
   color: 'gray-dark'
@@ -19,4 +19,4 @@ inputs:
     default: 'false'
 runs:
   using: 'node20'
-  main: 'dist/index.js'
+  main: 'dist/index.cjs'
