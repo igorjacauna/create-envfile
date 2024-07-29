@@ -7,6 +7,7 @@
   "scripts": {
     "build": "unbuild",
     "lint": "eslint .",
+    "package": "ncc build",
     "release": "changelogen"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "^20.8.7",
     "@typescript-eslint/parser": "^5.59.2",
+    "@vercel/ncc": "^0.38.1",
     "changelogen": "^0.5.5",
     "eslint": "^9.8.0",
     "eslint-plugin-github": "^5.0.1",
